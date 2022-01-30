@@ -1,0 +1,40 @@
+.Bg_Red{
+    background-color: rgb(166, 25, 46);
+    width: 100%;
+    height: 400px;
+    padding-left: 5%;
+    color: black;
+}
+.Bg_black{
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    height: 830px;
+    padding-top:3%;
+}
+.Bg_White{
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    padding-left: 1%;
+}
+.Bg_Gray{
+    background-color: rgb(221, 219, 219);
+    width: 85%;
+    height: 250px;
+    padding-left: 1%;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: solid 2px rgb(156, 149, 149);
+    width: 800px;
+}
+th{
+    background-color: rgb(190, 181, 181);
+}
+input{
+    width: 30%;
+}
+button{
+    background-color: red;
+    color: white;
+}

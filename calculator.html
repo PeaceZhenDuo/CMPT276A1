@@ -1,0 +1,41 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+
+<body class="Bg_Red">
+    <div class="Bg_black">
+        <div class="Bg_White">
+            <br>
+            <h1>Grade Calculator</h1>
+            <div class="Bg_Gray">
+                <h3 style="color: rgb(204, 33, 33);">Activities</h3>
+                 <h4>Give grades to the numeric activities</h4>
+                 <table id="tab">
+                    <tr>
+                        <th>Name</th>
+                        <th>Short Name</th>
+                        <th>Weight</th>
+                        <th>Grade</th>
+                        <th>Percent</th>
+                    </tr>
+
+                    <tr>
+                        <td>Activity1</td>
+                        <td>A1</td>
+                        <td><input id="inp1"></input></td>
+                        <td><input id="inpu1"></input>/<input id="inpue1"></input></td>
+                        <td id="percent1"></td>
+                    </tr>
+    
+                </table>
+                <button onclick="addAct()">ADD ACTIVITY</button>
+                <h3 id="Res" style="color: rgb(204, 33, 33);">Result</h3>
+                <button onclick="mean()" style="float: right;margin-right: 1%">MEAN</button>
+                <button onclick="weighted()" style="float: right;">WEIGHTED</button>
+            </div>
+        </div>
+    </div>      
+        
+
+</body>
